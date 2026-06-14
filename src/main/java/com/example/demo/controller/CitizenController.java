@@ -23,6 +23,9 @@ import jakarta.validation.Valid;
 @RequestMapping("/admin/citizen")
 public class CitizenController {
 	     //hello added in main branch
+	 //hello added in main branch
+	 //hello added in main branch
+	 //hello added in main branch
          @Autowired
 	  private  CitizenService service;
       @PostMapping
