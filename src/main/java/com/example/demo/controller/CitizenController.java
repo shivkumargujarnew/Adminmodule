@@ -22,7 +22,8 @@ import jakarta.validation.Valid;
 @RestController
 @RequestMapping("/admin/citizen")
 public class CitizenController {
-      @Autowired
+       //hi
+         @Autowired
 	  private  CitizenService service;
       @PostMapping
       public ResponseEntity<CitizenDTO> saveCitizen(@RequestBody @Valid CitizenDTO dto) {
