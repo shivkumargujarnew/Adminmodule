@@ -22,8 +22,6 @@ import jakarta.validation.Valid;
 @RestController
 @RequestMapping("/admin/citizen")
 public class CitizenController {
-       //hi
-       //by
          @Autowired
 	  private  CitizenService service;
       @PostMapping
